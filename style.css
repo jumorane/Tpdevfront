@@ -1,4 +1,5 @@
 
+
 body {
   margin: 0;
   min-width: 250px;
@@ -8,11 +9,11 @@ body {
   box-sizing: border-box;
 }
 
+
 ul {
   margin: 0;
   padding: 0;
 }
-
 
 ul li {
   cursor: pointer;
@@ -29,12 +30,9 @@ ul li {
   -ms-user-select: none;
   user-select: none;
 }
-
-
 ul li:nth-child(odd) {
   background: #f9f9f9;
 }
-
 
 ul li:hover {
   background: #ddd;
@@ -46,7 +44,6 @@ ul li.checked {
   color: #fff;
   text-decoration: line-through;
 }
-
 
 ul li.checked::before {
   content: '';
@@ -62,14 +59,22 @@ ul li.checked::before {
 }
 
 
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
 
 
 .header {
-  background-color: #b6995c;
+  background-color: #12aedd;
   padding: 30px 40px;
   color: white;
   text-align: center;
 }
+
 
 .header:after {
   content: "";
@@ -87,7 +92,6 @@ input {
   float: left;
   font-size: 16px;
 }
-
 
 .addBtn {
   padding: 10px;
